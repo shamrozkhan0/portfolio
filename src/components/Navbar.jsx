@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
 
-<nav className="navbar navbar-expand-lg " role='navigation'>
+<nav className="navbar navbar-expand-sm " role='navigation'>
   <div className="container px-0">
     <a className="navbar-brand text-white fw-bold" href="#">
       <h1 className='fw-bold text-h-white'>Shamroz khan</h1>
@@ -25,10 +25,10 @@ const Navbar = () => {
     
     </button>
     <div className="collapse navbar-collapse justify-content-end text-white" id="navbarNav">
-      <ul className="navbar-nav align-items-center  gap-4">
+      <ul className="navbar-nav align-items-center gap-2 gap-sm-4  ">
         {/* <li className="nav-item"><a className="nav-link transition03 link text-h-white fw-bold fs-18" href="#">Home</a></li> */}
-        <li className="nav-item"><a className="nav-link transition03 link text-h-white fw-thin fs-18" href="#">Projects</a></li>
-        <li className="nav-item"><a className="web-button d-block transition03 px-4 py-2 text-decoration-none rounded-pill
+        <li className="nav-item"><a className="nav-link w-100 transition03 link text-white fw-thin fs-18" href="#">Projects</a></li>
+        <li className="nav-item"><a className="web-button  w-100 d-block transition03 px-4 py-2 text-decoration-none rounded-pill
              text-h-white fw-medium fs-18" href="#">Contact</a></li>
       </ul> 
     </div>

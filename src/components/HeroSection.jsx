@@ -32,18 +32,18 @@ const HeroSection = () => {
 
   return (
 
-    <header className='row  py-5 gap-3 gap-md-0' itemscope itemtype="https://schema.org/Person">
-      <div className="col-12 col-lg-7 d-flex align-items-start justify-content-center flex-column gap-4 ">
+    <header className='row  py-5 gap-3 gap-lg-0' itemscope itemtype="https://schema.org/Person">
+      <div className="col-12 col-lg-7 d-flex align-items-start justify-content-center flex-column gap- ">
 
         <div className="header-text-parent">
           <h1 className='fw-bold text-h-white fs-60 text-blue ' itemProp='name'>Shamroz Khan <span className='text-white'>,</span></h1>
           <p className='fw-bold  text-h-white fs-60 ' itemProp='jobTitle'>  A <span className='text-blue' ref={el}></span> </p>
         </div>
 
-        <div className="d-flex flex-column gap-3">
+        <div className="d-flex flex-column gap-4">
 
           <a target='_black' href='https://www.linkedin.com/in/shamrozkhan-developer/'
-            className='fs-18 text-white text-decoration-none font-code'>
+            className='fs-18 text-white text-decoration-none font-code link-linkedin'>
 
             <span className='text-variable'>const</span>
             <span className='text-variable-name'> linkedin </span>
@@ -52,7 +52,8 @@ const HeroSection = () => {
             <span className='text-white'>;</span>
           </a>
 
-          <a href={fileUrl} download={true}>Download CV</a>
+          <a href={fileUrl} download={true} 
+             className='fs-18 text-white text-decoration-none web-button text-center w-fit py-2 px-4 rounded-pill transition03'>Download CV</a>
 
 
         </div>
