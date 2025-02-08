@@ -18,10 +18,27 @@
     height: 276px;
 }
 
+.btn-view{
+    background:linear-gradient(150deg , navy , blue) ;
+}
 
-@media screen and (max-width:990px) {
+.btn-view:hover{
+    /* background:linear-gradient(150deg ,  , ) ; */   
+}
+
+@media screen and (max-width:1200px) {
     .header-text-parent{
         height: 100% !important;
+    }
+}
+
+@media screen and (max-width:990px) {
+  
+}
+
+@media screen and (max-width:769px) {
+    .resume-btn a{
+        width: 100% !important;
     }
 }
 

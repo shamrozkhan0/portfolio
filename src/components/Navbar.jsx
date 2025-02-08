@@ -27,9 +27,13 @@ const Navbar = () => {
     <div className="collapse navbar-collapse justify-content-end text-white" id="navbarNav">
       <ul className="navbar-nav align-items-center gap-2 gap-sm-4  ">
         {/* <li className="nav-item"><a className="nav-link transition03 link text-h-white fw-bold fs-18" href="#">Home</a></li> */}
-        <li className="nav-item"><a className="nav-link w-100 transition03 link text-white fw-thin fs-18" href="#">Projects</a></li>
-        <li className="nav-item"><a className="web-button  w-100 d-block transition03 px-4 py-2 text-decoration-none rounded-pill
-             text-h-white fw-medium fs-18" href="#">Contact</a></li>
+        <li className="nav-item">
+          <a className="nav-link w-100 transition03 link text-white px-4 text-center py-2 fw-thin fs-18" href="#">Projects</a>
+          </li>
+        <li className="nav-item">
+          <a className="web-button  w-100 d-block transition03 px-4 py-2 text-center text-decoration-none rounded-pill
+             text-h-white fw-medium ls-1 fs-18 hover" href="#">Contact</a>
+        </li>
       </ul> 
     </div>
   </div>

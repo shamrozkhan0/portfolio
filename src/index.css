@@ -42,7 +42,11 @@ body{
 }
 
 .link:hover{
-  color: #00ADB5;
+  color: #00ADB5 !important;
+}
+
+.ls-1{
+  letter-spacing: 1px !important;
 }
 
 .w-fit{
@@ -53,8 +57,8 @@ body{
   background: linear-gradient(150deg, #0080FF,#00ADB5);
 }
 
-.web-button:hover{
-  transform: scaleY(0.8);
+.hover:hover{
+  transform: scaleX(0.8);
   color: white;
 }
 
@@ -76,6 +80,10 @@ body{
 @media screen and (max-width:576px) {
   .fs-60{
     font-size: 40px;
+  }
+
+  .fs-18{
+    font-size: 15px;
   }
   
 }
