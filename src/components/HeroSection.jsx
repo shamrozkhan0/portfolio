@@ -1,7 +1,7 @@
 import React, { useDebugValue } from 'react'
 import Typed from 'typed.js'
 
-import HeroImage from '../assets/svg/hero-img.svg';
+import HeroImage from '../assets/svg/bannerImage.svg';
 import '../assets/components-style/HeroSection.css'
 
 const HeroSection = () => {
@@ -13,11 +13,11 @@ const HeroSection = () => {
     const typed = new Typed(el.current, {
       strings: ['Full Stack java developer.'],
       typeSpeed: 50,
-      onComplete: () => {
-        setTimeout(() => {
-          document.querySelector(".typed-cursor").remove()
-        }, 500);
-      },
+      // onComplete: () => {
+      //   setTimeout(() => {
+      //     document.querySelector(".typed-cursor").remove()
+      //   }, 500);
+      // },
     });
     return () => {
       // Destroy Typed instance during cleanup to stop animation
@@ -32,14 +32,14 @@ const HeroSection = () => {
   return (
 
     <header className='row  py-5 gap-3 gap-lg-0' itemscope itemtype="https://schema.org/Person">
-      <div className="col-12 col-lg-7 d-flex align-items-start justify-content-center flex-column gap-3 ">
+      <div className="col-12 col-lg-7 d-flex align-items-start justify-content-center flex-column gap-3 gap-lg-0 ">
 
         <div className="header-text-parent">
-          <h1 className='fw-bold text-h-white fs-60 text-blue ' itemProp='name'>Shamroz Khan <span className='text-white'>,</span></h1>
+          <h1 className='fw-bold text-h-white fs-60 text-blue ' itemProp='name'>Shamroz Khan<span className='text-white'>,</span></h1>
           <p className='fw-bold  text-h-white fs-60 ' itemProp='jobTitle'>  A <span className='text-blue' ref={el}></span> </p>
         </div>
 
-        <div className="d-flex flex-column gap-4">
+        <div className="d-flex flex-column gap-4 gap-lg-4 w-100">
 
           <a target='_black' href='https://www.linkedin.com/in/shamrozkhan-developer/'
             className='fs-18 ls-1 gap-2 d-flex  text-white text-decoration-none font-code link-linkedin'>
@@ -62,7 +62,7 @@ const HeroSection = () => {
 
       </div>
 
-      <div className="col-12 col-lg-5 banner-img d-flex justify-content-center">
+      <div className="col-12 col-lg-5 banner-img d-flex justify-content-center p-2">
         <img src={HeroImage} alt="Vector - a developer sits and have an background of different languages" />
       </div>
 

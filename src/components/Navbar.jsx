@@ -1,12 +1,13 @@
 import React from 'react'
 
+import '../assets/components-style/Navbar.css'
 
 const Navbar = () => {
 
 
   return (
 
-<nav className="navbar navbar-expand-sm " role='navigation'>
+<nav className="navbar navbar-expand-sm  " role='navigation'>
   <div className="container px-0">
     <a className="navbar-brand text-white fw-bold" href="#">
       <h1 className='fw-bold text-h-white'>Shamroz khan</h1>
