@@ -32,7 +32,8 @@ const VerticalScroll = () => {
         transform: 'translateX(-50%)',
         width: `${lineHeight * 2}%`,
         height: `5px`,
-        backgroundColor: 'white',
+        // backgroundColor: 'white',
+        background:'linear-gradient( 150deg, navy , aqua)',
         zIndex: 1000,
       }}
     />

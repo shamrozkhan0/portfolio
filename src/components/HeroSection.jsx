@@ -1,7 +1,8 @@
 import React, { useDebugValue } from 'react'
 import Typed from 'typed.js'
 
-import HeroImage from '../assets/svg/bannerImage.svg';
+import Skill from './Skill'
+// import HeroImage from '../assets/svg/bannerImage.svg';
 import '../assets/components-style/HeroSection.css'
 
 const HeroSection = () => {
@@ -31,15 +32,15 @@ const HeroSection = () => {
 
   return (
 
-    <header className='row  py-5 gap-3 gap-lg-0' itemscope itemtype="https://schema.org/Person">
-      <div className="col-12 col-lg-7 d-flex align-items-start justify-content-center flex-column gap-3 gap-lg-0 ">
+    <header className='row  pt-150 gap-3 gap-lg-0 pb-5' itemscope itemtype="https://schema.org/Person">
+      <div className="col-12 col-lg-7 d-flex align-items-start justify-content-center flex-column gap-3 gap-lg-0 py-2">
 
         <div className="header-text-parent">
           <h1 className='fw-bold text-h-white fs-60 text-blue ' itemProp='name'>Shamroz Khan<span className='text-white'>,</span></h1>
           <p className='fw-bold  text-h-white fs-60 ' itemProp='jobTitle'>  A <span className='text-blue' ref={el}></span> </p>
         </div>
 
-        <div className="d-flex flex-column gap-4 gap-lg-4 w-100">
+        <div className="d-flex flex-column gap-4 gap-lg-5 w-100">
 
           <a target='_black' href='https://www.linkedin.com/in/shamrozkhan-developer/'
             className='fs-18 ls-1 gap-2 d-flex  text-white text-decoration-none font-code link-linkedin'>
@@ -62,8 +63,9 @@ const HeroSection = () => {
 
       </div>
 
-      <div className="col-12 col-lg-5 banner-img d-flex justify-content-center p-2">
-        <img src={HeroImage} alt="Vector - a developer sits and have an background of different languages" />
+      <div className="col-12 col-lg-5 banner-img d-flex justify-content-center align-items-center px-2 py-2">
+        {/* <img src={HeroImage} alt="Vector - a developer sits and have an background of different languages" /> */}
+        <Skill/>
       </div>
 
     </header>

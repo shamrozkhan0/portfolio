@@ -7,7 +7,6 @@
 
 body{
   background-color: #030712 !important;
-  /* font-family:Arial, Helvetica, sans-serif; */
   font-family: "Fira Code", serif !important;
   line-height: normal !important;
   color: white !important;
@@ -65,6 +64,10 @@ body::-webkit-scrollbar {
 .hover:hover{
   transform: scaleX(0.8);
   color: white;
+}
+
+.pt-150 {
+  padding-top: 120px !important;
 }
 
 
