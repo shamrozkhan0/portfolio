@@ -8,8 +8,8 @@
 body{
   font-family: "Fira Code", serif !important;
   line-height: normal !important;
-  background-color: #08051D !important;
- 
+  /* background-color: #08051D !important; */
+ background-color: #03001B !important ;
 }
 
 .web-btn{
@@ -29,6 +29,22 @@ body{
 .fs-18{
   font-size: 18px !important;
 }
+
+.w-fit{
+  width: fit-content !important;
+}
+
+.py-100{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.web-heading{
+  background: linear-gradient(180deg, #00AFFF 31.25%, rgba(0, 175, 255, 0.00) 100%);
+  background-clip: text !important;
+  color: transparent;
+}
+
 
 
  /* body::-webkit-scrollbar { */

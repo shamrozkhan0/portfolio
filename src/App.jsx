@@ -1,14 +1,19 @@
-import React from 'react'
+import React , {Suspense , lazy} from 'react'
 
 import Navbar from './components/Navbar'
 import Banner from './Components/Banner'
 
+const HeavyBannerSection = lazy(()=> import('./Components/Banner'))
 
 const App = () => {
   return (
     <>
     <Navbar/>
-    <Banner/>
+
+    <Suspense fallback={<div>Loading...</div>}>
+      <Banner/>
+    </Suspense>
+
 
     </>
 )
