@@ -23,11 +23,15 @@ body{
 
 
 .fs-60{
-  font-size: 60px !important;
+  font-size: 80px !important;
 }
 
 .fs-18{
   font-size: 18px !important;
+}
+
+.fw-xbold{
+  font-weight: 800 !important;
 }
 
 .w-fit{
@@ -40,17 +44,62 @@ body{
 }
 
 .web-heading{
-  background: linear-gradient(180deg, #00AFFF 31.25%, rgba(0, 175, 255, 0.00) 100%);
+  background: linear-gradient(180deg, #00AFFF 31.25%, rgba(0, 175, 255, 0.00) 100%, #00AFFF 20%);
   background-clip: text !important;
   color: transparent;
 }
 
+.fadein{
+ /* transform: translateX(-100px); */
+ animation: fadeIn 1.5s ease;
+}
+
+.web-button{
+  background: linear-gradient(150deg , #FFA31D,#FF7545);
+}
+
+.slide-in-left{
+  
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 
- /* body::-webkit-scrollbar { */
-  /* display: none; Chrome, Safari */
-/* }   */
 
+@media screen and (max-width: 989px){
+  .fs-60{
+    font-size: 60px !important;
+  }
+  .fs-18{
+    font-size: 16px !important;
+  }
+  .py-100{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  
+  
+}
 
 
 

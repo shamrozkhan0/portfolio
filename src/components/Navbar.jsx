@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-md">
             <a className="navbar-brand" href="#">
-                <h1 className='text-white fw-semibold'>Shamroz Khan</h1>
+                <h1 className='text-white fw-xbold'>Shamroz Khan</h1>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
