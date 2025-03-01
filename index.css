@@ -22,7 +22,7 @@ body{
 }
 
 
-.fs-60{
+.fs-80{
   font-size: 80px !important;
 }
 
@@ -54,40 +54,18 @@ body{
  animation: fadeIn 1.5s ease;
 }
 
-.web-button{
+.web-button-orange{
   background: linear-gradient(150deg , #FFA31D,#FF7545);
 }
 
-.slide-in-left{
-  
-}
-
-@keyframes fadeIn {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.web-button{
+  background: linear-gradient(150deg , #FFA31D,#FF7545);
 }
 
 
 
 @media screen and (max-width: 989px){
-  .fs-60{
+  .fs-80{
     font-size: 60px !important;
   }
   .fs-18{

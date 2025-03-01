@@ -3,6 +3,7 @@ import React , {Suspense , lazy} from 'react'
 import Navbar from './components/Navbar'
 import Banner from './Components/Banner'
 import '../index.css'
+import '../animation.css'
 
 const HeavyBannerSection = lazy(()=> import('./Components/Banner'))
 
