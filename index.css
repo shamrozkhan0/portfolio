@@ -49,6 +49,8 @@ body{
   color: transparent;
 }
 
+.web-heading-
+
 .fadein{
  /* transform: translateX(-100px); */
  animation: fadeIn 1.5s ease;
@@ -59,7 +61,11 @@ body{
 }
 
 .web-button{
-  background: linear-gradient(150deg , #FFA31D,#FF7545);
+  background: linear-gradient(150deg ,#32A9E3 , #8EEABD);
+}
+
+.text-dark-blue{
+  color: #03001B;;
 }
 
 

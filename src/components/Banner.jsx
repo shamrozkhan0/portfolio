@@ -14,34 +14,41 @@ const Banner = () => {
       aria-label="Full stack java developer"
       className="row py-100 gap-5 gap-md-0"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
+      viewport={{ once: true }}
     >
       <motion.div
         className="col-12 col-md-6 d-flex flex-column gap-3 justify-content-between"
         initial={{ x: -100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
+        whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
+        viewport={{ once: true }}
+
       >
         <header>
           <motion.h1
             className="w-fit fs-80 fw-xbold d-flex flex-column"
             initial={{ y: -50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
+
           >
             <span className="web-heading">Full-Stack</span>
             <span className="web-heading">Java</span>
             <span className="web-heading">Developer</span>
-            <span className="web-heading">Portfolio</span>
+            <span className="web-heading">Portfolio</span >
           </motion.h1>
         </header>
 
         <motion.p
           className="text-light fw-medium fs-18 lh-base web-heading"
           initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
+          viewport={{ once: true }}
+
         >
           2+ years of experience in building seamless websites | Web Applications
           and REST APIs
@@ -50,15 +57,18 @@ const Banner = () => {
         <motion.nav
           className="d-flex align-items-center gap-3"
           initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          viewport={{ once: true }}
         >
           <motion.a
-            href={resume}
             aria-label="Download Resume"
-            className="web-button text-white border-0 px-3 py-2 rounded-2 fs-18 fw-medium text-decoration-none"
+            href={resume}
+            className="web-button-orange text-white border-0 px-3 py-2 rounded-2 fs-18 fw-medium text-decoration-none"
             download
-            whileHover={{ scaleX: 0.9, duration:1, delay:1 }}
+            whileHover={{ scaleX: 0.9, duration: 1, delay: 1 }}
+            viewport={{ once: true }}
+
           >
             Download Resume
           </motion.a>
@@ -66,21 +76,26 @@ const Banner = () => {
           <motion.a
             aria-label="Review Resume"
             href={resumeLink}
+            className="web-button px-3 py-2 text-decoration-none text-dark-blue fs-18 fw-semibold rounded-2"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scaleX: 0.9, }}
+            viewport={{ once: true }}
+
           >
             Review Resume
           </motion.a>
-          
+
         </motion.nav>
       </motion.div>
 
       <motion.figure
-        className="col-12 col-md-6 d-flex align-items-center justify-content-center"
+        className="col-12 col-md-6 d-flex align-items-center justify-content-end"
         initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
+        whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.7 }}
+        viewport={{ once: true }}
+
       >
         <motion.img
           src={BannerImage}
@@ -89,6 +104,7 @@ const Banner = () => {
           className="w-100 h-100 banner-img"
         />
       </motion.figure>
+
     </motion.section>
   );
 };
