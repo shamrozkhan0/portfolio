@@ -30,6 +30,14 @@ body{
   font-size: 18px !important;
 }
 
+.fs-20{
+  font-size: 20px !important;
+}
+
+.ls-1{
+  letter-spacing: 1px;
+}
+
 .fw-xbold{
   font-weight: 800 !important;
 }
@@ -49,7 +57,11 @@ body{
   color: transparent;
 }
 
-.web-heading-
+.web-heading1{
+  background: linear-gradient(130deg,#61BEA6 50% , #B532D0 50%);
+  background-clip: text !important;
+  color: transparent;
+}
 
 .fadein{
  /* transform: translateX(-100px); */

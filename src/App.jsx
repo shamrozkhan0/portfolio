@@ -1,4 +1,5 @@
 import React, { Suspense, lazy } from 'react'
+import { motion } from "framer-motion";
 
 import Navbar from './components/Navbar'
 import Banner from './Components/Banner'
