@@ -72,8 +72,8 @@ body{
   background: linear-gradient(150deg , #FFA31D,#FF7545);
 }
 
-.web-button{
-  background: linear-gradient(150deg ,#32A9E3 , #8EEABD);
+.web-button-blue{
+  background: linear-gradient(140deg ,#0231ff , navy);
 }
 
 .text-dark-blue{

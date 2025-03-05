@@ -76,12 +76,11 @@ const Banner = () => {
           <motion.a
             aria-label="Review Resume"
             href={resumeLink}
-            className="web-button px-3 py-2 text-decoration-none text-dark-blue fs-18 fw-semibold rounded-2"
+            className="web-button-blue px-3 py-2 text-decoration-none text-light fs-18 fw-semibold rounded-2"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scaleX: 0.9, }}
             viewport={{ once: true }}
-
           >
             Review Resume
           </motion.a>
