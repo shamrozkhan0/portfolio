@@ -1,8 +1,9 @@
 import React from 'react';
+import '../assets/components-style/Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md py-3">
+        <nav className="navbar navbar-expand-md sticky-top">
             <h1 className="text-white fw-bold">
                 <a className="text-decoration-none text-white" href="#" aria-label="Shamroz Khan's portfolio">Shamroz Khan</a>
             </h1>
@@ -12,13 +13,15 @@ const Navbar = () => {
                 <span className="fas fa-bars text-white fs-18" aria-hidden="true"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul className="navbar-nav gap-4 gap-lg-3">
+                <ul className="navbar-nav align-align-center d-flex justify-content-center gap-4 gap-lg-3">
                     <li className="nav-item">
-                        <a className="nav-link text-white active" href="#">View my work</a>
+                        <a className="nav-link fw-medium text-white active px-4 py-2 fs-18" href="#">View my work</a>
                     </li>
                     <li className="nav-item">
-                        <a className="web-button-orange text-decoration-none fw-medium text-white text-center rounded-3 px-4 py-2 fs-18"
-                            href="#" role="button" aria-label="Hire me">Hire me</a>
+                        {/* <a className="web-button-orange text-decoration-none fw-medium text-white 
+                                    text-center rounded-pill px-4 py-2 fs-18"
+                            href="#" role="button" aria-label="Hire me">Hire me</a> */}
+                        <a className="nav-link web-button-orange rounded-pill fw-medium text-white active px-4 py-2 fs-18 web-button-orange" href="#">HIRE ME</a>
                     </li>
                 </ul>
             </div>

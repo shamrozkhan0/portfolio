@@ -43,15 +43,14 @@ const Banner = () => {
         </header>
 
         <motion.p
-          className="text-light fw-medium fs-18 lh-base web-heading"
+          className="text-light fw-medium fs-18 lh-base web-heading text-justify"
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
           viewport={{ once: true }}
 
         >
-          2+ years of experience in building seamless websites | Web Applications
-          and REST APIs
+          Website Apllications | SAAS Enthusiast |  REST APIs
         </motion.p>
 
         <motion.nav
@@ -82,7 +81,7 @@ const Banner = () => {
             whileHover={{ scaleX: 0.9, }}
             viewport={{ once: true }}
           >
-            Review Resume
+            View Resume
           </motion.a>
 
         </motion.nav>

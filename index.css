@@ -58,9 +58,9 @@ body{
 }
 
 .web-heading1{
-  background: linear-gradient(130deg,#61BEA6 50% , #B532D0 50%);
-  background-clip: text !important;
-  color: transparent;
+  /* background: linear-gradient(130deg); */
+  /* background-clip: text !important; */
+  /* color: transparent; */
 }
 
 .fadein{
@@ -69,7 +69,7 @@ body{
 }
 
 .web-button-orange{
-  background: linear-gradient(150deg , #FFA31D,#FF7545);
+  background: linear-gradient(150deg , #FFA31D,#FF7545) !important;
 }
 
 .web-button-blue{
@@ -80,6 +80,9 @@ body{
   color: #03001B;;
 }
 
+.text-justify{
+  text-align: justify !important;
+}
 
 
 @media screen and (max-width: 989px){
