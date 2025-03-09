@@ -5,12 +5,14 @@
   padding: 0px;
 }
 
+.container{
+  max-width: 1500px !important;
+}
+
 body{
   font-family: "Fira Code", serif !important;
   line-height: normal !important;
-  /* background-color: #08051D !important; */
- /* background-color: #03001B !important ; */
-background-color: #060033 !important;
+  background-color: #060033 !important;
 }
 
 .web-btn{
@@ -58,11 +60,6 @@ background-color: #060033 !important;
   color: transparent;
 }
 
-.web-heading1{
-  /* background: linear-gradient(130deg); */
-  /* background-clip: text !important; */
-  /* color: transparent; */
-}
 
 .fadein{
  /* transform: translateX(-100px); */

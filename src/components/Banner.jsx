@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import BannerImage from "../assets/images/banner.webp";
 import resume from "../assets/file/Resume.pdf";
 import "../assets/components-style/Banner.css";
-import apeImage from '../assets/images/profile.jpg';
+import apeImage from '../assets/images/profile.webp';
 
 const resumeLink = "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fitgMXvl/view?usp=drive_link";
   
@@ -97,7 +97,7 @@ const Banner = () => {
       >
 
         <motion.div
-          className="circle rounded-circle p-1"
+          className="circle rounded-circle p-1 d-none d-lg-block"
           animate={{ y: [0, 20, 0] }}
           drag
           dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
