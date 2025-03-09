@@ -2,3 +2,15 @@
     max-width: 400px ;
     max-height: 400px;
 }
+
+.circle{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background: linear-gradient(to right , #00FFCC , navy);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+    cursor: grab;
+
+}

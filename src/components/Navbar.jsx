@@ -18,10 +18,7 @@ const Navbar = () => {
                         <a className="nav-link fw-medium text-white active px-4 py-2 fs-18" href="#">View my work</a>
                     </li>
                     <li className="nav-item">
-                        {/* <a className="web-button-orange text-decoration-none fw-medium text-white 
-                                    text-center rounded-pill px-4 py-2 fs-18"
-                            href="#" role="button" aria-label="Hire me">Hire me</a> */}
-                        <a className="nav-link web-button-orange rounded-pill fw-medium text-white active px-4 py-2 fs-18 web-button-orange" href="#">HIRE ME</a>
+                        <a className="nav-link web-button-orange rounded-pill fw-medium text-center text-white active px-4 py-2 fs-18 web-button-orange" href="#">HIRE ME</a>
                     </li>
                 </ul>
             </div>

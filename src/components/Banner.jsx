@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 import BannerImage from "../assets/images/banner.webp";
 import resume from "../assets/file/Resume.pdf";
 import "../assets/components-style/Banner.css";
+import apeImage from '../assets/images/profile.jpg';
 
-const resumeLink =
-  "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fitgMXvl/view?usp=drive_link";
+const resumeLink = "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fitgMXvl/view?usp=drive_link";
+  
 
 const Banner = () => {
   return (
@@ -49,7 +50,7 @@ const Banner = () => {
           viewport={{ once: true }}
 
         >
-          Website Apllications | SAAS Enthusiast |  REST APIs
+          Website Apllications | SAAS Enthusiast |  REST-APIs
         </motion.p>
 
         <motion.nav
@@ -77,7 +78,7 @@ const Banner = () => {
             className="web-button-blue px-3 py-2 text-decoration-none text-light fs-18 fw-semibold rounded-2"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scaleX: 0.9}}
+            whileHover={{ scaleX: 0.9 }}
             viewport={{ once: true }}
           >
             View Resume
@@ -87,13 +88,33 @@ const Banner = () => {
       </motion.div>
 
       <motion.figure
-        className="col-12 col-md-6 d-flex align-items-center image-end-rs-center"
+        className="col-12 col-md-6 d-flex align-items-center image-end-rs-center position-relative"
         initial={{ scale: 0.5, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.7 }}
         viewport={{ once: true }}
 
       >
+
+        <motion.div
+          className="circle rounded-circle p-1"
+          animate={{ y: [0, 20, 0] }}
+          drag
+          dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+          dragElastic={0.1} // Reduces stretch effect
+          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+          style={{ cursor: "grab" }} // Ensures proper cursor behavior
+        >
+          <img
+            className="w-100 h-100 rounded-circle"
+            src={apeImage}
+            alt="APE NFT - created by Shamroz Khan"
+            style={{ pointerEvents: "none" }}
+          />
+        </motion.div>
+
+
+
         <motion.img
           src={BannerImage}
           alt="Banner-Image - braces with screen and books"
