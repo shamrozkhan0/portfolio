@@ -33,7 +33,6 @@ const Banner = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-
           >
             <span className="web-heading">Full-Stack</span>
             <span className="web-heading">Java</span>
@@ -43,7 +42,7 @@ const Banner = () => {
         </header>
 
         <motion.p
-          className="text-light fw-medium fs-18 lh-base web-heading text-justify"
+          className="text-light fw-medium fs-18 lh-base web-heading lh-1"
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
@@ -78,7 +77,7 @@ const Banner = () => {
             className="web-button-blue px-3 py-2 text-decoration-none text-light fs-18 fw-semibold rounded-2"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scaleX: 0.9, }}
+            whileHover={{ scaleX: 0.9}}
             viewport={{ once: true }}
           >
             View Resume
@@ -88,7 +87,7 @@ const Banner = () => {
       </motion.div>
 
       <motion.figure
-        className="col-12 col-md-6 d-flex align-items-center justify-content-end"
+        className="col-12 col-md-6 d-flex align-items-center image-end-rs-center"
         initial={{ scale: 0.5, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.7 }}

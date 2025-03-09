@@ -84,6 +84,11 @@ body{
   text-align: justify !important;
 }
 
+/* This style centers images on mobile devices 
+  that are right-aligned on desktop */
+.image-end-rs-center{
+  justify-content: end;
+}
 
 @media screen and (max-width: 989px){
   .fs-80{
@@ -96,8 +101,19 @@ body{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
   }
+ 
+}
+
+@media screen and (max-width:768px) {
   
-  
+  .image-end-rs-center{
+    justify-content: center !important;
+  }
+
+  /* .fs-80{ */
+    /* font-size: 0px !important; */
+  /* } */
+
 }
 
 
