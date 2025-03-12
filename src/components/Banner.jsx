@@ -98,7 +98,7 @@ const Banner = () => {
 
         <motion.div
           className="circle rounded-circle p-1 d-none d-lg-block"
-          animate={{ y: [0, 20, 0] }}
+          animate={{ y: [0, 30, 0] }}
           drag
           dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
           dragElastic={0.1} // Reduces stretch effect

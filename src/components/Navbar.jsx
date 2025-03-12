@@ -15,7 +15,12 @@ const Navbar = () => {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav align-align-center d-flex justify-content-center gap-4 gap-lg-3">
                     <li className="nav-item">
-                        <a className="nav-link fw-medium text-white active px-4 py-2 fs-18" href="#">View my work</a>
+                        <a className="nav-link fw-medium text-white active px-4 py-2 fs-18" href="bla"
+                          onClick={(e)=>{
+                            e.preventDefault();
+                            document.getElementById("bla").scrollIntoView({behavior: "smooth"});
+                          }}
+                        >View my work</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link web-button-orange rounded-pill fw-medium text-center text-white active px-4 py-2 fs-18 web-button-orange" href="#">HIRE ME</a>
