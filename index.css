@@ -13,6 +13,7 @@ body{
   font-family: "Fira Code", serif !important;
   line-height: normal !important;
   background-color: #060033 !important;
+  /* background-color: rgb(1, 1, 63) !important; */
 }
 
 .web-btn{
@@ -55,7 +56,7 @@ body{
 }
 
 .web-heading{
-  background: linear-gradient(180deg, #00aeff 31.25%, rgba(0, 175, 255, 0.00) 100%, #00AFFF 20%);
+  background: linear-gradient(180deg, #00b7ff 31.25%, rgba(0, 174, 255, 0.171) 100%, #00AFFF 20%);
   background-clip: text !important;
   color: transparent;
 }
@@ -67,7 +68,7 @@ body{
 }
 
 .web-button-orange{
-  background: linear-gradient(150deg , #FFA31D,#FF7545) !important;
+  background: linear-gradient(150deg , #ff9900,#ff4000) !important;
 }
 
 .web-button-blue{

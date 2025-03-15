@@ -23,7 +23,8 @@ const Navbar = () => {
                         >View my work</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link web-button-orange rounded-pill fw-medium text-center text-white active px-4 py-2 fs-18 web-button-orange" href="#">HIRE ME</a>
+                        <a className="nav-link web-button-orange rounded-pill fw-semibold text-center text-white 
+                            active px-5 py-2 fs-18 web-button-orange" href="#">HIRE ME</a>
                     </li>
                 </ul>
             </div>

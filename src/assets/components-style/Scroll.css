@@ -1,0 +1,9 @@
+.scroll{
+    background:#00FFCC;
+    height: 5px;
+    position: fixed;
+    z-index: 999999;
+    top: 0px;
+    left: 0px;
+    transform: 'translateX(-50%)';
+}

@@ -1,0 +1,13 @@
+.about-image-parent img{
+    max-width: 400px;
+}
+
+.text-variable{
+color: yellow;
+}
+
+.text-string{
+    color: rgb(255, 145, 0);
+}
+
+
