@@ -12,8 +12,8 @@ const About = () => {
     return (
         <section className='py-100' aria-label='About shamroz khan' id='bla' >
             <div className="row gap-5 gap-md-0">
-                <div
-                    className="col-12 col-md-6 d-flex justify-content-center flex-column gap-4">
+                
+                <div className="col-12 col-md-6 d-flex justify-content-center flex-column gap-4">
                     <motion.h1
                         initial={{ x: -100, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
@@ -33,8 +33,6 @@ const About = () => {
                         experience building <b className="text-info"> dynamic web applications, REST APIs, and scalable solutions</b>. 
                         I specialize in writing clean, efficient code to solve real-world challenges.
                     </motion.p>
-
-
                 </div>
 
         

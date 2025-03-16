@@ -5,6 +5,7 @@ import Scroll from './Components/Scroll'
 import Navbar from './components/Navbar'
 import Banner from './Components/Banner'
 import About from './Components/About'
+import Skill from './Components/Skill'
 import '../index.css'
 
 const HeavyBannerSection = lazy(() => import('./Components/Banner'))
@@ -18,6 +19,7 @@ const App = () => {
         <Banner />
       </Suspense>
       <About/>
+      <Skill/>
 
 
     </>
