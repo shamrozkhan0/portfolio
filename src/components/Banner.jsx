@@ -12,16 +12,7 @@ const resumeLink = "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fit
 const Banner = () => {
   return (
     <>
-      <Helmet>
-        <title>Full Stack Java Developer Portfolio - Shamroz Khan</title>
-        <meta name="description" content="Experienced Full Stack Java Developer specializing in Website Applications, SAAS, and REST-APIs. View portfolio and download resume." />
-        <meta name="keywords" content="Full Stack Developer, Java Developer, Web Applications, SAAS, REST APIs, Portfolio" />
-        <meta property="og:title" content="Full Stack Java Developer Portfolio - Shamroz Khan" />
-        <meta property="og:description" content="Experienced Full Stack Java Developer specializing in Website Applications, SAAS, and REST-APIs." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href={window.location.href} />
-      </Helmet>
-
+  
       <motion.section
         aria-label="Full stack java developer portfolio section"
         className="row py-100 gap-5 gap-md-0"

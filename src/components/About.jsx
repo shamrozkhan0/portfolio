@@ -19,7 +19,7 @@ const About = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: .8}}
                         viewport={{once:true}}
-                        className=" fw-bold ls-1 w-fit" style={{ color: '#00FFCC' }}>
+                        className=" fw-bold ls-1 w-fit" style={{ color: 'white' }}>
                         A Byte About Me
                     </motion.h1>
 

@@ -109,6 +109,11 @@ body{
     justify-content: center !important;
   }
 
+  .py-100{
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+
   /* .fs-80{ */
     /* font-size: 0px !important; */
   /* } */
