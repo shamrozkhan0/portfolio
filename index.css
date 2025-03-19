@@ -12,8 +12,8 @@
 body{
   font-family: "Fira Code", serif !important;
   line-height: normal !important;
-  background-color: #060033 !important;
-  /* background-color: rgb(1, 1, 63) !important; */
+  /* background-color: #060033 !important; */
+  background: linear-gradient(to right, #0F2027,#203A43 , #2C5364);
 }
 
 .web-btn{

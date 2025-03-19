@@ -28,11 +28,17 @@ const About = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: .8}}
                         viewport={{once:true}}
-                        className="fs-18 lh-lg ls-1 text-white text-justify">
-                        Hey there! I'm a passionate <b className='text-info'>Full Stack Java Developer</b> with over 2 years of
+                        className="fs-18 lh-lg ls-1 text-white text-justify fw-semibold">
+                        Hello! I'm a passionate <b className='text-info'>Full Stack Java Developer</b> with over 2 years of
                         experience building <b className="text-info"> dynamic web applications, REST APIs, and scalable solutions</b>. 
                         I specialize in writing clean, efficient code to solve real-world challenges.
                     </motion.p>
+
+                    <motion.ul className='d-flex flex-column gap-2'>
+                        <li className='fw-bold text-white fs-18'>Full stack java developer</li>
+                        <li className='fw-bold text-white fs-18'>Student</li>
+                    </motion.ul>
+
                 </div>
 
         
