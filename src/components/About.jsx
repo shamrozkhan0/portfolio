@@ -35,8 +35,9 @@ const About = () => {
                     </motion.p>
 
                     <motion.ul className='d-flex flex-column gap-2'>
-                        <li className='fw-bold text-white fs-18'>Full stack java developer</li>
-                        <li className='fw-bold text-white fs-18'>Student</li>
+                        <li className=' text-white fs-18'>Full stack java developer</li>
+                        <li className=' text-white fs-18'>BS Software Engineering Student</li>
+                        {/* <li className='fw-bold text-white fs-18'>BS Software Engineering Student</li> */}
                     </motion.ul>
 
                 </div>
