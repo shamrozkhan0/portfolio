@@ -14,6 +14,7 @@ body{
   line-height: normal !important;
   /* background-color: #060033 !important; */
   background: linear-gradient(to right, #0F2027,#203A43 , #2C5364);
+
 }
 
 .web-btn{
@@ -59,6 +60,8 @@ body{
   background: linear-gradient(180deg, #00b7ff 31.25%, rgba(0, 174, 255, 0.171) 100%, #00AFFF 20%);
   background-clip: text !important;
   color: transparent;
+  background-size: 400% 400%;
+  animation: gradientAnimation 8s ease infinite;
 }
 
 
