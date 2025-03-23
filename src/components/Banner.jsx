@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
 
@@ -10,9 +10,23 @@ import profileImage from '../assets/images/profile.avif';
 const resumeLink = "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fitgMXvl/view?usp=drive_link";
 
 const Banner = () => {
+
+  // const [isRemoved, setIsRemoved] = useState(window.innerWidth < 769);
+
+  // useEffect(() => {
+  //   const removeImageFromDOM = () => {
+  //     setIsRemoved(window.innerWidth < 769);
+  //   };
+  
+  //   window.addEventListener("resize", removeImageFromDOM);
+  //   return () => window.removeEventListener("resize", removeImageFromDOM);
+  // }, []); // ✅ Runs once on mount
+  
+  // if (isRemoved) return null; // Completely removes from the DOM
+  
   return (
     <>
-  
+
       <motion.section
         aria-label="Full stack java developer portfolio section"
         className="row py-100 gap-5 gap-md-0"
@@ -50,7 +64,7 @@ const Banner = () => {
             className="text-light fw-medium fs-18 lh-base web-heading lh-1"
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1}}
+            transition={{ duration: 1 }}
             viewport={{ once: true }}
             itemProp="description"
           >
@@ -61,7 +75,7 @@ const Banner = () => {
             className="d-flex align-items-center gap-3"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1}}
+            transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
             <motion.a
@@ -95,7 +109,7 @@ const Banner = () => {
           className="col-12 col-md-6 d-flex align-items-center image-end-rs-center position-relative"
           initial={{ scale: 0.5, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: .8}}
+          transition={{ duration: .8 }}
           viewport={{ once: true }}
         >
           <motion.div

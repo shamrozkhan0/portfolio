@@ -16,3 +16,10 @@ margin-left: -10px;
 }
 
 
+@media screen and (max-width: 769px) {
+    .about-image-parent img{
+        max-width: 350px;
+        max-height: 350px;
+    }
+}
+

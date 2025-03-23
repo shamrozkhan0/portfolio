@@ -1,6 +1,6 @@
 .banner-img{
-    max-width: clamp(350px, 40vw, 400px);
-    max-height:clamp(350px, 40vw, 400px);
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .circle{
@@ -14,9 +14,22 @@
     cursor: grab;
 }
 
-/* @media (max-width: 989px) {
+@media (max-width: 989px) {
     .banner-img {
         max-width: 350px;
         max-height: 350px;
     }
-} */
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 576px)  {
+    
+    .banner-img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+}

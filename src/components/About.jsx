@@ -19,20 +19,26 @@ const About = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: .8 }}
                         viewport={{ once: true }}
-                        className=" fw-bold ls-1 w-fit " style={{ color: 'white' }}>
-                        A Byte About Me
+                        className=" fw-bold ls-1 w-fit web-heading">
+                        HELLO! <span className='text-white'> I'm Shamroz Khan</span>
                     </motion.h1>
+
 
                     <motion.p
                         initial={{ x: -100, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: .8 }}
                         viewport={{ once: true }}
-                        className=" lh-lg ls-1 text-white  fw-semibold">
-                        Hello! I'm a <span className='text-info'>highly skilled Full Stack Java Developer</span> with a strong expertise in both frontend and backend development. I specialize in building responsive web applications, optimizing performance, and implementing secure architectures to deliver seamless digital experiences.
+                        className="fs-18 lh-lg ls-1 text-white text-justify fw-semibold">
+                        A highly skilled Full Stack Java Developer with a strong expertise in both frontend and backend development.
                     </motion.p>
 
-                    <motion.ul className='d-flex flex-column gap-2 lh-base about-ul'>
+                    <motion.ul 
+                    initial={{y:-50 , opacity:0}}
+                    whileInView={{y:0 , opacity:1}}
+                    transition={{duration:.8 , delay:.1}}
+                    viewport={{once:true}}
+                    className='d-flex flex-column gap-2 lh-base about-ul'>
                         <li className='text-white fw-semibold'>🔥 Full stack java developer</li>
                         <li className='text-white fw-semibold'>🚀 Quick Learner</li>
                         <li className='text-white fw-semibold'>🎓 BS Software Engineering ( Student ) </li>
@@ -47,7 +53,7 @@ const About = () => {
                     transition={{ duration: .8 }}
                     viewport={{ once: true }}
                     className="col-12 col-md-6 about-image-parent d-flex image-end-rs-center align-items-center">
-                    <img src={aboutImage} alt="Image - Globe with code snippet and a card" className='w-100' />
+                    <img src={aboutImage} className="w-100 h-100" alt="Image - Globe with code snippet and a card" />
                 </motion.figure>
             </div>
 
