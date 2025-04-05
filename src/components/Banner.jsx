@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import BannerImage from "../assets/images/banner.avif";
 import resume from "../assets/file/Resume.pdf";
 import "../assets/components-style/Banner.css";
-import profileImage from '../assets/images/profile.avif';
+import profileImage from '../assets/images/shamroz-profile.png';
 
 const resumeLink = "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fitgMXvl/view?usp=drive_link";
 

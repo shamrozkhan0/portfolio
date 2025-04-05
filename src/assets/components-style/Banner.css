@@ -7,11 +7,15 @@
     width: 120px;
     height: 120px;
     position: absolute;
-    background: linear-gradient(to right , #00FFCC , navy);
+    background: linear-gradient(to right , #00FFCC , rgb(0, 255, 21));
     top: 50%;
     transform: translateY(-50%);
     left: 20%;
     cursor: grab;
+}
+
+.circle img {
+    object-fit: cover;
 }
 
 @media (max-width: 989px) {

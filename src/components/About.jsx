@@ -10,7 +10,7 @@ const About = () => {
     let linkedinProfile = "https://www.linkedin.com/in/shamrozkhan-developer/";
 
     return (
-        <section className='py-100' aria-label='About shamroz khan' id='bla' >
+        <section className='py-100' aria-label='About shamroz khan'  >
             <div className="row gap-5 gap-md-0">
 
                 <div className="col-12 col-md-6 d-flex justify-content-center flex-column gap-4">

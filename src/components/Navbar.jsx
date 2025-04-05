@@ -18,7 +18,7 @@ const Navbar = () => {
                         <a className="nav-link fw-medium text-white active px-4 py-2 fs-18" href="bla"
                           onClick={(e)=>{
                             e.preventDefault();
-                            document.getElementById("bla").scrollIntoView({behavior: "smooth"});
+                            document.getElementById("projects").scrollIntoView({behavior: "smooth"});
                           }}
                         >View my work</a>
                     </li>
