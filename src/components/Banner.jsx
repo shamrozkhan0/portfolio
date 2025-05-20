@@ -1,29 +1,15 @@
-import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Helmet } from "react-helmet";
 
 import BannerImage from "../assets/images/banner.avif";
-import resume from "../assets/file/Resume.pdf";
+// import resume from "../assets/file/shamroz-resume.pdf";
+import resume from "../assets/images/shamroz.jpg"
 import "../assets/components-style/Banner.css";
-import profileImage from '../assets/images/shamroz-profile.png';
+import profileImage from '../assets/images/shamroz.jpg';
 
-const resumeLink = "https://drive.google.com/file/d/1U8ENVzInN4P78f8-tPSWK7v-fitgMXvl/view?usp=drive_link";
-
+// const resumeLink = "https://drive.google.com/file/d/1oQt16x_dP1v_siWFRsE8rPFsgY4cug6U/view?usp=drive_link";
+const resumeLink = "https://www.github.com/shamrozkhan0"
 const Banner = () => {
 
-  // const [isRemoved, setIsRemoved] = useState(window.innerWidth < 769);
-
-  // useEffect(() => {
-  //   const removeImageFromDOM = () => {
-  //     setIsRemoved(window.innerWidth < 769);
-  //   };
-  
-  //   window.addEventListener("resize", removeImageFromDOM);
-  //   return () => window.removeEventListener("resize", removeImageFromDOM);
-  // }, []); // ✅ Runs once on mount
-  
-  // if (isRemoved) return null; // Completely removes from the DOM
-  
   return (
     <>
 
@@ -35,7 +21,7 @@ const Banner = () => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         itemScope
-        itemType="http://schema.org/Person"
+        itemType="http://schema.org/Person" 
       >
         <motion.div
           className="col-12 col-md-6 d-flex flex-column gap-3 justify-content-between"
@@ -113,14 +99,13 @@ const Banner = () => {
           viewport={{ once: true }}
         >
           <motion.div
-            className="circle rounded-circle p-1 d-none d-lg-block"
+            className="circle rounded-circle p-1 d-none d-lg-flex align-items-center justify-content-center "
             animate={{ y: [0, 30, 0] }}
-            drag
-            dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-            dragElastic={0.1}
             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-            style={{ cursor: "grab" }}
           >
+
+            {/* <h1 className="text-light text-center w-100 ls-1 fw-xbold"> {"</>"} </h1> */}
+
             <img
               className="w-100 h-100 rounded-circle"
               src={profileImage}

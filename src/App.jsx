@@ -1,15 +1,12 @@
-import React, { Suspense, lazy } from 'react'
-import { motion } from "framer-motion";
+import  { Suspense} from 'react'
 
 import Scroll from './Components/Scroll'
 import Navbar from './components/Navbar'
 import Banner from './Components/Banner'
 import About from './Components/About'
 import Skill from './Components/Skill'
-import Project from './Components/Project';
 import '../index.css'
 
-const HeavyBannerSection = lazy(() => import('./Components/Banner'))
 
 const App = () => {
   return (
@@ -21,7 +18,7 @@ const App = () => {
       </Suspense>
       <About/>
       <Skill/>
-      {/* <Project/> */}
+      {/*<Project/>*/}
 
 
     </>
